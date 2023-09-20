@@ -7,4 +7,4 @@ O programa `ContaTerminal` é uma aplicação Java simples que permite aos usuá
 
 ## DesafioControleFluxo
 
-O projeto `DesafioControleFluxo` possui a classe `Contador` na qual é possui os comandos para inserir dois parametros com tratamento de exceções com a exceção customizada `ParametrosInvalidosException`. Onde é feito a analise se o segundo parametro é maior que o primeiro e se não for, é executado a impressão da quantidade de subtraida entre os dois parametros seguindo a contagem.
+O projeto `DesafioControleFluxo` inclui a classe `Contador`, que permite a inserção de dois parâmetros com tratamento de exceções usando a exceção personalizada `ParametrosInvalidosException`. A classe realiza uma análise para verificar se o segundo parâmetro é maior que o primeiro. Caso contrário, ela lança uma exceção. Se os parâmetros forem válidos, a classe realiza a subtração entre os dois parâmetros e executa uma contagem, imprimindo os valores resultantes.
